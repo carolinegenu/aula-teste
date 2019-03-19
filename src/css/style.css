@@ -1,0 +1,30 @@
+/* SERVIÇOS */
+.servico {width: 100%;  text-align: left;  margin-bottom: 3%;}
+.servico img {border-radius: 7px 7px 0 0;}
+.inner {padding: 7%;}
+.inner a {font-size: 1.5em; color: #130400; font-weight: 700; }
+.inner h4 {font-size: 1.2em; color: #130400; margin-top: 2%; }
+.inner p {margin-top: 6%; color: #130400; line-height: 1.5em;}
+
+/* ========== MOBILE FIRST ==========*/
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+.logo {width: 214px; background: url(../img/logo.png) center center/214px no-repeat;}
+}
+/* SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 768px) {
+.servico {width: 49%; float: left; margin-right: 2%;}
+.servico:nth-child(2){margin-right: 0;}
+}
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px) {
+.servico {width: 32%; }
+.servico:nth-child(2){margin-right: 2%;}
+.servico:nth-child(3){margin-right: 0;}
+}
+/* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 1280px) {
+
+
+
+
